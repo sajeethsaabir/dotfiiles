@@ -8,6 +8,7 @@ fi
 
 # Update package list and system
 echo "Updating system packages..."
+pacman -Syy --confirm \
 pacman -Syu --noconfirm
 
 # Install core development and desktop packages
@@ -32,20 +33,8 @@ pacman -S --noconfirm \
     kitty \
     rofi \
     breeze-gtk \
-    breeze-icons
-
-
-# Additional recommended packages for a complete setup
-# pacman -S --noconfirm \
-#    base-devel \
-#    network-manager \
-#    pulseaudio \
-#    pavucontrol
-
-# Configure i3 for new users
-echo "Setting up i3 configuration..."
-mkdir -p /etc/skel/.config/i3
-cp /usr/share/doc/i3/config /etc/skel/.config/i3/config
+    breeze-icons \
+    pavucontrol
 
 # Create a message for the user
 echo "
