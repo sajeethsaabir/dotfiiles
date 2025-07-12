@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 #
 
 # fastfetch
-fastfetch -c ~/.config/fastfetch/my-config.jsonc
+# fastfetch -c ~/.config/fastfetch/my-config.jsonc
 
 # aliases
 alias -g n="nvim"
