@@ -4,6 +4,7 @@
   - The wallpapers are downloaded from online and DistroTube Derek's Collections from his GitLab
   - Along with Arch Linux customization 
 
-# Clone the following to .oh-my-zsh/plugins & clone it into `.oh-my-zsh/plugins`
+# Clone the following
+## To .oh-my-zsh/plugins & clone it into `.oh-my-zsh/plugins`
   1. https://github.com/zsh-users/zsh-autosuggestions.git
   2. https://github.com/zsh-users/zsh-syntax-highlighting.git
