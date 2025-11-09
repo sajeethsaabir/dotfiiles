@@ -1,6 +1,7 @@
 # Sample Dotfiles and Wallpaper Collection
   - Go-to repository to use some of the dotfiles
   - It's maintained for my personal use cases
+  - The wallpapers are downloaded from online and DistroTube Derek's Collections
   - Along with Arch Linux customization 
 
 # Clone the following to .oh-my-zsh/plugins
